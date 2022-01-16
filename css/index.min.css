@@ -1,0 +1,24 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{background-image:url(../img/pexels-pixabay-4343372.jpg?2112021324);background-size:cover;display:flex;justify-content:center;align-items:center;height:100vh;flex-direction:column;gap:20px;background-color:#cbe1ff;font-family:Verdana,Geneva,Tahoma,sans-serif}
+::-webkit-scrollbar{width:8px}
+::-webkit-scrollbar-thumb{background-color:#28a2e7;border-radius:10px;max-width:5px}
+::-webkit-scrollbar-thumb:hover{background-color:#0c527a}
+::-webkit-scrollbar-track{background-color:#fff;padding:2px;box-shadow:inset 0 0 4px rgba(0,0,0,.5)}
+.btnadd{padding:10px;border:none;background-color:#198754;color:#fff;font-size:18px;border-radius:8px}
+.btnadd:active{transform:scale(.94)}
+.table .entete{display:flex;gap:5px;width:100%}
+.table .entete div{background-color:#28a2e7;padding:10px;display:flex;justify-content:center;align-items:center;width:200px;transform:scale(1.1);color:#fff}
+.tbody{display:flex;gap:5px;width:100%}
+.tbody div{display:flex;border:1px solid rgba(128,128,128,.342);padding:10px;justify-content:center;align-items:center;width:200px;background-color:#fff}
+.tbody .fa-user-edit{color:green}
+.tbody .fa-trash{color:red}
+.id{width:80px!important}
+.createForm,.formUpdate{display:flex;gap:10px;justify-content:center;align-items:center;padding:20px;gap:10px;flex-direction:column;background-color:#fff;border-radius:5px}
+form input{height:40px;width:250px;padding:0 10px;outline:0;border:none;border-radius:4px;box-shadow:0 0 5px #b3b3b393}
+form input:focus{box-shadow:inset 0 0 5px #28a1e793}
+.boutons #enregistrer{background-color:#00e1ff}
+.email{width:300px!important}
+.btn_action{cursor:pointer}
+.btn_action:active{transform:scale(.94)}
+.controle{width:74%;display:flex;justify-content:space-between;background-color:#fff;padding:20px}
+.list{max-height:60vh;height:fit-content;overflow-x:hidden;overflow-y:scroll;margin-top:10px}
